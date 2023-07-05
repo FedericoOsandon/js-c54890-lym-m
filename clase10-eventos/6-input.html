@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comsión 54890</title>
+</head>
+<body>
+    <h2>hola coders</h2>
+    <input id="nombre" type="text" name="nombreProducto">
+    <input id="precio" type="text" value="Fede el mejor">
+    
+    
+    <!-- <script src="index.js"></script> -->
+    <script>
+        let inputNombre = document.getElementById('nombre')
+        // input si usan el addEventListener()
+        inputNombre.oninput = (evt) => {
+            console.log('input: ', evt.target.name)
+            console.log('input: ', evt.target.value)
+        }        
+        
+    </script>
+</body>
+</html>

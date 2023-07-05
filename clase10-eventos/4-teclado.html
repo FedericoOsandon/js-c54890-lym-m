@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comsión 54890</title>
+</head>
+<body>
+    <h2>hola coders</h2>
+    <input id="nombre" type="text" >
+    <input id="precio" type="text" >
+    
+    
+    <!-- <script src="index.js"></script> -->
+    <script>
+        let inputNombre = document.getElementById('nombre')
+        let inputPrecio = document.getElementById('precio')
+
+        // inputNombre.onkeyup   = () => {console.log('key up')}
+        inputNombre.addEventListener('keyup', (e)=>{console.log('key up: ',e)})
+        inputPrecio.onkeydown = (evt) => {console.log('key down: ', evt.key)}
+        
+        
+    </script>
+</body>
+</html>

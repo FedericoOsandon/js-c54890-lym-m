@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comsión 54890</title>
+</head>
+<body>
+    <h2>hola coders</h2>
+    <form id="formulario">
+        <input id="nombre" type="text" name="nombre">
+        <input id="categoria" type="text" name="categoria">
+        <input id="precio" type="number" name="precio">
+        <input id="stock" type="number" name="stock">
+        <input id="imgUrl" type="number" name="imgUrl">
+
+        <input id="boton" type="submit" value="Enviar" >
+    </form>
+    
+    
+    <!-- <script src="index.js"></script> -->
+    <script>
+        let miFormulario = document.getElementById('formulario')  
+        miFormulario.addEventListener('submit', validarFormulario)  
+        function validarFormulario(evt) {
+            evt.preventDefault()
+            console.log('Enviando formulario', evt)
+        }
+        
+    </script>
+</body>
+</html>
