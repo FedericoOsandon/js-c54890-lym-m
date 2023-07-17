@@ -1,0 +1,5 @@
+{
+    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+        "live-server-extension": true
+    }
+}
