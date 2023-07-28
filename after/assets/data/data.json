@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remero Negra",
+        "precio": 5000,
+        "categoria": "remeras",
+        "stock": 100,
+        "imgUrl": "https://marinaracewear.com/storage/media/attributes/8/7/4/5/8/87458/2.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Gorra Rosa",
+        "precio": 4000,
+        "categoria": "gorras",
+        "stock": 100,
+        "imgUrl": "https://cdn.palbincdn.com/users/31244/images/GORRA-BASICA-JUNIOR-CUSTOMIZASHOPBF10B-COLOR-ROSA-1611838353.jpg"
+    }
+]
